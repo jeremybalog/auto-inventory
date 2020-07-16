@@ -1,0 +1,190 @@
+header,
+main,
+footer {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  max-width: 20em;
+  width: 80%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a+strong {
+	color: #000;
+  padding: 0 0.5em;
+}
+
+main {
+  margin: 1em auto 1em;
+}
+
+.facets select {
+  display: block;
+  width: 100%;
+}
+
+.tile {
+  border: 1px solid #BBB;
+  border-radius: 0.25em;
+  text-align: left;
+  padding: 0.5em 1em 0.5em;
+  text-decoration: none !important;
+}
+
+.tile:hover {
+  border-color: #004787;
+  transition: border-color 0.5s ease;
+}
+
+.tile h3 {
+  margin-top: 0;
+}
+
+.tile svg {
+  max-width: 100%;
+  max-height: 4em;
+  margin: auto;
+  zoom: 300%;
+  background-color: #DDD;
+  border-radius: 0.1em;
+  filter: brightness(0.95);
+  transition: all 0.5s ease;
+}
+
+.tile:hover svg {
+  filter: brightness(1.00);
+}
+
+.tile .price {
+  text-align: right;
+  height: 1em;
+}
+.tile .price>span {
+  position: relative;
+  top: -1.25em;
+  right: -0.25em;
+  height: 2em;
+  padding: 0.3em 2em 0.3em;
+  border-radius: 0;
+  background-color: #0FAE1B;
+  color: #fff;
+  font-weight: bold;
+}
+
+.tile .specs {
+  color: #333;
+  text-align: left;
+}
+
+.pagination {
+  margin: 2em;
+}
+.page {
+  border-radius: 0.25em;
+  border: 1px solid #AAA;
+  padding: 0.25em 0.5em;
+  margin: 0 0.25em 0;
+  font-weight: bold;
+}
+
+.page.active {
+  background-color: #004787 !important;
+  color: #FFF;
+}
+
+.page:hover {
+  border-color: #004787;
+  background-color: #EEE;
+  transition: border-color 0.5s ease;
+}
+
+.vdp svg {
+  max-width: 100%;
+  width: 12em;
+  height: 8em;
+  margin: auto;
+  zoom: 300%;
+  background-color: #DDD;
+  border-radius: 0.1em;
+}
+
+.vdp h4 {
+  text-align: left;
+}
+
+.vdp .price {
+  font-size: 200%;
+  color: #0FAE1B;
+  font-weight: bold;
+}
+
+.vdp .cta {
+  margin: 1em;
+}
+
+.vdp .cta button {
+  background-color: #004787;
+  color: #fff;
+}
+
+.vdp .cta button:hover {
+  filter: brightness(1.1);
+}
+
+.vdp .specs {
+  text-align: left;
+  font-size: 80%;
+}
+
+footer {
+  background-color: #DDD;
+  padding: 1em 0 2em;
+}
+
+footer a {
+  display: block;
+}
+
+@media only screen and (max-width: 45em) {
+  .tile {
+    text-align: center;
+  }
+
+  .tile .price {
+    text-align: center;
+  }
+
+  .tile .specs {
+    text-align: center;
+  }
+}
+
+.center {
+  text-align: center !important;
+}
+
+#login input {
+  display: block;
+  max-width: 80%;
+  width: 15em;
+  margin: 0.25em auto 0.25em;
+  text-align: center;
+}
+
+#login input[type=submit] {
+  margin-top: 0.5em;
+  width: 8em;
+  background-color: #004787;
+  color: #fff;
+}
