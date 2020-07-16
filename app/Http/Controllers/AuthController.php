@@ -10,7 +10,8 @@ class AuthController extends ViewController
     {
         $params = [
           'title' => 'Login',
-          'head' => '',
+          'canonical' => '/login',
+          'metaDesc' => 'Login and search hundreds of high quality cars.',
           'main' => ''
         ];
 
